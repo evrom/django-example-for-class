@@ -20,5 +20,5 @@ from twittr.views import my_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^my_view$', my_view)
+    url(r'^my_view$', my_view, name='my_view')
 ]
