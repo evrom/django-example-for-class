@@ -11,6 +11,8 @@ Use the virtual environment with the command `source venv/bin/activate`
 
 install packages with `pip install -r requirements.txt`
 
+then run the migrations with `python manage.py migrate`
+
 ## RUN
 
 change current working directory to `project`. Run `python manage.py runserver`
